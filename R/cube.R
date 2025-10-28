@@ -1,15 +1,15 @@
-#' @title Squares numeric data
+#' @title Cubes numeric data
 #'
-#' @description Squares numeric data (single a number or a numeric vector)
+#' @description Cubes numeric data (single a number or a numeric vector)
 #'
 #' @param x numeric, vector
 #'
 #' @returns numeric, vector
 #'
 #' @examples
-#' square(5)
-#' square(0)
-#' square(c(1,2,3))
+#' cube(5)
+#' cube(0)
+#' cube(c(1,2,3))
 #'
 #' @export
 # This is telling R to include this function in the Package -- R studio will handle everything
@@ -17,10 +17,9 @@
 # If you get an error --> run library(devtools)
 
 
-square <- function(x) {
+cube <- function(x) {
 
-  return(x^2) #square the input and return it
+  return(x^3) #square the input and return it
 
 }
-
 
